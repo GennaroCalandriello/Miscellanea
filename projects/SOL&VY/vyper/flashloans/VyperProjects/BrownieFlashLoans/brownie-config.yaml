@@ -1,0 +1,8 @@
+wallets:
+  from_keys: $PRIVATE_KEY$
+
+networks:
+  goeri:
+    chainid: 5
+    host: "https://goerli.infura.io/v3/54b2cc43407f46a583b82e8e3936320b"
+    explorer: "https://api-goerli.etherscan.io/api?apikey=8U7YF64IPDTER8S9A3N5TF5WSG4ATDNVDJ"

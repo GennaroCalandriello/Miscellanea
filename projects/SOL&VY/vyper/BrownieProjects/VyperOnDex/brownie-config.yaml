@@ -1,0 +1,20 @@
+dotenv: .env
+
+networks:
+  default: mainnet_fork
+  mainnet:
+    host: ${WEB3_INFURA_URL}
+    chain_id: 1
+  goerli:
+    host: ${WEB3_INFURA_URL_GOERLI}
+    chain_id: 2
+  mainnet_fork:
+    host: https://127.0.0.1
+    chain_id: 1
+compiler:
+  vyper:
+    version: 0.3.6
+
+settings:
+  gas_limit: "100000000000"
+  gas_price: "5*10**10"
