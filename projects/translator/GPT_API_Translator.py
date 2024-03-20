@@ -161,8 +161,8 @@ def process_pdf(
     documento = fitz.open(input_pdf_path)
     translated_document = fitz.open()  # qui creo un documento pdf vuoto
 
-    initial_page = 10
-    final_page = 14  # numero di pagine del documento
+    initial_page = 20
+    final_page = 21  # numero di pagine del documento
 
     for page_num in range(initial_page, final_page):
         page = documento.load_page(page_num)
